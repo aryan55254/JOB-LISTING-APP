@@ -58,6 +58,34 @@
     },
     {
       "id": "5",
+      "title": "Administrative Assistant",
+      "type": "Full-Time",
+      "description": "We are seeking a detail-oriented Administrative Assistant to join our office in Delhi. The role involves managing schedules, organizing meetings, and ensuring smooth daily operations.",
+      "location": "Delhi",
+      "salary": "50K - 60K",
+      "company": {
+        "name": "UrbanCore Enterprises",
+        "description": "UrbanCore Enterprises is a fast-growing urban development firm focused on creating sustainable and innovative solutions for modern cities.",
+        "contactEmail": "contact@urbancore.com",
+        "contactPhone": "555-555-5562"
+      }
+    },
+    {
+      "id": "6",
+      "title": "Customer Service Representative",
+      "type": "Full-Time",
+      "description": "Looking for a dynamic and friendly Customer Service Representative to join our Mumbai-based team. Help us provide exceptional support to our valued customers.",
+      "location": "Mumbai, Maharashtra",
+      "salary": "40K - 50K",
+      "company": {
+        "name": "ClientFirst Solutions",
+        "description": "ClientFirst Solutions is dedicated to enhancing customer experiences through innovative support strategies and solutions.",
+        "contactEmail": "contact@clientfirst.com",
+        "contactPhone": "555-555-5563"
+      }
+    },
+    {
+      "id": "7",
       "title": "Full Stack Developer",
       "type": "Full-Time",
       "description": "Exciting opportunity for a Full-Time Developer in bustling Hyderabad. We are seeking a talented individual with a passion for building elegant and scalable web applications. Join our team and make an impact!",
@@ -71,7 +99,7 @@
       }
     },
     {
-      "id": "6",
+      "id": "8",
       "title": "DevOps Engineer",
       "type": "Full-Time",
       "description": "Join our team as a DevOps Engineer in Pune. We are looking for a skilled and enthusiastic individual to help us create innovative cloud solutions. Competitive salary and great benefits package available.",
@@ -85,7 +113,7 @@
       }
     },
     {
-      "id": "7",
+      "id": "9",
       "title": "Mobile App Developer (Flutter)",
       "type": "Full-Time",
       "description": "We are looking for a talented Mobile App Developer in Chennai, Tamil Nadu. The ideal candidate will have strong expertise in Flutter and Dart, with experience in deploying apps on both iOS and Android platforms.",
@@ -99,73 +127,213 @@
       }
     },
     {
-      "id": "8",
-      "title": "Data Scientist",
-      "type": "Full-Time",
-      "description": "Join our data team in Kolkata, West Bengal, as a Data Scientist. We're looking for individuals passionate about analyzing complex datasets, building predictive models, and delivering actionable insights.",
-      "location": "Kolkata, West Bengal",
-      "salary": "140K - 160K",
-      "company": {
-        "name": "DataVault Analytics",
-        "description": "DataVault Analytics specializes in advanced data solutions, empowering organizations with data-driven strategies and tools. We foster an environment of learning and exploration for all our employees.",
-        "contactEmail": "contact@datavault.com",
-        "contactPhone": "555-555-5557"
-      }
-    },
-    {
-      "id": "9",
-      "title": "UI/UX Designer",
-      "type": "Full-Time",
-      "description": "We're seeking a creative UI/UX Designer to join our design team in Jaipur, Rajasthan. The role involves designing intuitive user interfaces and enhancing the overall user experience of our digital products.",
-      "location": "Jaipur, Rajasthan",
-      "salary": "70K - 90K",
-      "company": {
-        "name": "DesignHive Studios",
-        "description": "DesignHive Studios is an innovative design agency focused on creating visually stunning and user-centric digital products. We value creativity and teamwork in everything we do.",
-        "contactEmail": "contact@designhivestudios.com",
-        "contactPhone": "555-555-5558"
-      }
-    },
-    {
       "id": "10",
-      "title": "Cybersecurity Analyst",
+      "title": "Marketing Specialist",
       "type": "Full-Time",
-      "description": "Exciting opportunity in Mumbai, Maharashtra, for a Cybersecurity Analyst. The ideal candidate will have experience in network security, threat analysis, and implementing security protocols to safeguard systems.",
-      "location": "Mumbai, Maharashtra",
-      "salary": "100K - 120K",
+      "description": "We are looking for an innovative Marketing Specialist to join our vibrant team in Bengaluru. Develop and implement creative marketing strategies to drive business growth.",
+      "location": "Bengaluru, Karnataka",
+      "salary": "80K - 100K",
       "company": {
-        "name": "SecureTech Systems",
-        "description": "SecureTech Systems is a leading provider of cybersecurity solutions, dedicated to protecting businesses from digital threats. We offer a supportive and collaborative work environment.",
-        "contactEmail": "contact@securetechsystems.com",
-        "contactPhone": "555-555-5559"
+        "name": "BrandHive Solutions",
+        "description": "BrandHive Solutions is a leading marketing agency specializing in brand strategy, digital marketing, and customer engagement.",
+        "contactEmail": "contact@brandhive.com",
+        "contactPhone": "555-555-5564"
       }
     },
     {
       "id": "11",
-      "title": "Cloud Architect",
+      "title": "Event Coordinator",
       "type": "Full-Time",
-      "description": "Join our Pune-based team as a Cloud Architect. We're seeking an expert in AWS or Azure to design, deploy, and manage scalable cloud infrastructures for enterprise applications.",
-      "location": "Pune, Maharashtra",
-      "salary": "180K - 200K",
+      "description": "Seeking a detail-oriented Event Coordinator to manage corporate events in Jaipur. Must have excellent organizational and communication skills.",
+      "location": "Jaipur, Rajasthan",
+      "salary": "60K - 80K",
       "company": {
-        "name": "SkyBound Tech",
-        "description": "SkyBound Tech is a technology company specializing in cloud solutions for businesses. Our mission is to enable digital transformation through innovative and scalable cloud technologies.",
-        "contactEmail": "contact@skyboundtech.com",
-        "contactPhone": "555-555-5560"
+        "name": "Prime Events Co.",
+        "description": "Prime Events Co. specializes in creating memorable and impactful corporate and social events. We bring innovation and precision to every occasion.",
+        "contactEmail": "contact@primeevents.com",
+        "contactPhone": "555-555-5565"
       }
     },
     {
       "id": "12",
-      "title": "Blockchain Developer",
+      "title": "Human Resources Manager",
       "type": "Full-Time",
-      "description": "We are seeking a Blockchain Developer in Bengaluru, Karnataka, to develop decentralized applications (DApps) and smart contracts. Knowledge of Ethereum and Solidity is essential.",
-      "location": "Bengaluru, Karnataka",
+      "description": "Join our HR team in Kolkata as a Human Resources Manager. Help shape the culture of a growing organization by implementing HR strategies and managing employee relations.",
+      "location": "Kolkata, West Bengal",
+      "salary": "90K - 110K",
+      "company": {
+        "name": "GrowthEdge HR Solutions",
+        "description": "GrowthEdge HR Solutions is dedicated to helping businesses build thriving teams through strategic human resources management.",
+        "contactEmail": "contact@growthedge.com",
+        "contactPhone": "555-555-5566"
+      }
+    },
+    {
+      "id": "13",
+      "title": "Data Analyst",
+      "type": "Full-Time",
+      "description": "We are seeking a skilled Data Analyst in Ahmedabad to turn data into actionable insights. Proficiency in SQL and data visualization tools is required.",
+      "location": "Ahmedabad, Gujarat",
+      "salary": "70K - 90K",
+      "company": {
+        "name": "Insight Analytics",
+        "description": "Insight Analytics specializes in providing data-driven solutions to help businesses achieve their goals through informed decision-making.",
+        "contactEmail": "contact@insightanalytics.com",
+        "contactPhone": "555-555-5567"
+      }
+    },
+    {
+      "id": "14",
+      "title": "Content Writer",
+      "type": "Full-Time",
+      "description": "Join our creative team in Jaipur as a Content Writer. Craft compelling articles, blogs, and copy to enhance our brand’s online presence.",
+      "location": "Jaipur, Rajasthan",
+      "salary": "40K - 50K",
+      "company": {
+        "name": "CreativeEdge Media",
+        "description": "CreativeEdge Media is a digital marketing agency focused on content strategy and creative storytelling.",
+        "contactEmail": "contact@creativeedge.com",
+        "contactPhone": "555-555-5568"
+      }
+    },
+    {
+      "id": "15",
+      "title": "Cybersecurity Specialist",
+      "type": "Full-Time",
+      "description": "Seeking an experienced Cybersecurity Specialist in Hyderabad. Responsibilities include securing networks and ensuring compliance with security standards.",
+      "location": "Hyderabad, Telangana",
       "salary": "150K - 180K",
       "company": {
-        "name": "BlockCraft Innovations",
-        "description": "BlockCraft Innovations is a pioneer in blockchain technology, providing solutions for businesses across various industries. We thrive on collaboration and innovation to drive digital transformation.",
-        "contactEmail": "contact@blockcraft.com",
-        "contactPhone": "555-555-5561"
+        "name": "SecureTech Systems",
+        "description": "SecureTech Systems is a leader in providing cybersecurity solutions to protect businesses from digital threats.",
+        "contactEmail": "contact@securetech.com",
+        "contactPhone": "555-555-5569"
+      }
+    },
+    {
+      "id": "16",
+      "title": "Graphic Designer",
+      "type": "Part-Time",
+      "description": "Join our team in Pune as a Graphic Designer. Create visually appealing graphics and promotional materials for our campaigns.",
+      "location": "Pune, Maharashtra",
+      "salary": "30K - 40K",
+      "company": {
+        "name": "DesignHive Studio",
+        "description": "DesignHive Studio specializes in creative branding and design solutions for businesses of all sizes.",
+        "contactEmail": "contact@designhive.com",
+        "contactPhone": "555-555-5570"
+      }
+    },
+    {
+      "id": "17",
+      "title": "Sales Executive",
+      "type": "Full-Time",
+      "description": "Looking for a motivated Sales Executive to join our Mumbai office. Drive sales growth and build strong customer relationships.",
+      "location": "Mumbai, Maharashtra",
+      "salary": "50K - 70K",
+      "company": {
+        "name": "BizGrowth Solutions",
+        "description": "BizGrowth Solutions helps businesses expand through tailored sales strategies and customer engagement solutions.",
+        "contactEmail": "contact@bizgrowth.com",
+        "contactPhone": "555-555-5571"
+      }
+    },
+    {
+      "id": "18",
+      "title": "Operations Manager",
+      "type": "Full-Time",
+      "description": "Join our team in Bengaluru as an Operations Manager. Oversee daily operations and ensure efficiency across all departments.",
+      "location": "Bengaluru, Karnataka",
+      "salary": "120K - 140K",
+      "company": {
+        "name": "OpsExcellence Inc.",
+        "description": "OpsExcellence Inc. specializes in streamlining operations for businesses to achieve optimal efficiency and growth.",
+        "contactEmail": "contact@opsexcellence.com",
+        "contactPhone": "555-555-5572"
+      }
+    },
+    {
+      "id": "19",
+      "title": "UX/UI Designer",
+      "type": "Full-Time",
+      "description": "We are hiring a UX/UI Designer in Chennai to create user-friendly designs and improve the overall user experience of our digital products.",
+      "location": "Chennai, Tamil Nadu",
+      "salary": "90K - 110K",
+      "company": {
+        "name": "UserFirst Designs",
+        "description": "UserFirst Designs focuses on crafting intuitive and visually engaging digital experiences for end-users.",
+        "contactEmail": "contact@userfirst.com",
+        "contactPhone": "555-555-5573"
+      }
+    },
+    {
+      "id": "20",
+      "title": "Blockchain Developer",
+      "type": "Full-Time",
+      "description": "We are looking for a Blockchain Developer in Delhi with expertise in Ethereum and smart contract development.",
+      "location": "Delhi",
+      "salary": "150K - 180K",
+      "company": {
+        "name": "ChainWorks Inc.",
+        "description": "ChainWorks Inc. is at the forefront of blockchain innovation, providing decentralized solutions for various industries.",
+        "contactEmail": "contact@chainworks.com",
+        "contactPhone": "555-555-5574"
+      }
+    },
+    {
+      "id": "21",
+      "title": "Customer Success Manager",
+      "type": "Full-Time",
+      "description": "Seeking a proactive Customer Success Manager in Gurgaon to ensure client satisfaction and retention.",
+      "location": "Gurgaon, Haryana",
+      "salary": "80K - 100K",
+      "company": {
+        "name": "ClientFirst Solutions",
+        "description": "ClientFirst Solutions prioritizes customer success through personalized support and innovative solutions.",
+        "contactEmail": "contact@clientfirst.com",
+        "contactPhone": "555-555-5563"
+      }
+    },
+    {
+      "id": "22",
+      "title": "Digital Marketing Manager",
+      "type": "Full-Time",
+      "description": "Join our digital marketing team in Kolkata to drive online campaigns and increase brand visibility.",
+      "location": "Kolkata, West Bengal",
+      "salary": "70K - 90K",
+      "company": {
+        "name": "WebPulse Agency",
+        "description": "WebPulse Agency is a leader in digital marketing, specializing in SEO, social media management, and online advertising.",
+        "contactEmail": "contact@webpulse.com",
+        "contactPhone": "555-555-5575"
+      }
+    },
+    {
+      "id": "23",
+      "title": "Product Manager",
+      "type": "Full-Time",
+      "description": "Looking for a Product Manager in Ahmedabad to lead product development and ensure alignment with market needs.",
+      "location": "Ahmedabad, Gujarat",
+      "salary": "120K - 150K",
+      "company": {
+        "name": "InnoVision Tech",
+        "description": "InnoVision Tech is dedicated to creating innovative software products that transform industries.",
+        "contactEmail": "contact@innovision.com",
+        "contactPhone": "555-555-5576"
+      }
+    },
+    {
+      "id": "24",
+      "title": "Cloud Solutions Architect",
+      "type": "Full-Time",
+      "description": "Seeking an experienced Cloud Solutions Architect in Noida to design scalable cloud infrastructure solutions and drive cloud adoption.",
+      "location": "Noida, Uttar Pradesh",
+      "salary": "180K - 200K",
+      "company": {
+        "name": "CloudSphere Solutions",
+        "description": "CloudSphere Solutions specializes in providing state-of-the-art cloud computing services and consultancy.",
+        "contactEmail": "contact@cloudsphere.com",
+        "contactPhone": "555-555-5577"
       }
     }
   ]

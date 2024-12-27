@@ -1,12 +1,12 @@
 import React from 'react';
 import jobsData from '../jobs.json'; 
 function Jobscard() {
-  const jobs = jobsData.jobs.slice(0,3); 
+  const jobs = jobsData.jobs.slice(0,6); 
 
   
 
   return (
-    <section className="mt-6 bg-gradient-to-b from-blue-50 to-blue-100 min-h-screen py-6">
+    <section className="mt-6 bg-gradient-to-b from-blue-50 to-blue-100 h-auto py-6">
       <center>
         <h1 className="text-4xl text-blue-800 font-extrabold tracking-wide drop-shadow-md mb-8">
           BROWSE JOBS
