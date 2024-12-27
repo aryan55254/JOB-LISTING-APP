@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '../assets/images/jplogo.jpg';
 const Navbar = () => {
   return (
-    <nav className="bg-blue-500 text-white px-4 py-2 shadow-md">
+    <nav className="bg-blue-500 text-white px-4 py-2 shadow-md ">
       <div className="container mx-auto flex justify-between items-center">
         {/* Left Side: Logo and Title */}
         <div className="flex items-center space-x-2">
