@@ -1,88 +1,172 @@
 {
-    "jobs": [
-      {
-        "id": "1",
-        "title": "Senior React Developer",
-        "type": "Full-Time",
-        "description": "We are seeking a talented Front-End Developer to join our team in Noida,UP. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as React or Angular.",
-        "location": "Noida, UP",
-        "salary": "70K - 80K",
-        "company": {
-          "name": "NewTek Solutions",
-          "description": "NewTek Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
-          "contactEmail": "contact@teksolutions.com",
-          "contactPhone": "555-555-5555"
-        }
-      },
-      {
-        "id": "2",
-        "title": "Back-End Engineer (Java/Springboot)",
-        "type": "Full-Time",
-        "location": "Banglore,Karnataka",
-        "description": "Join our team as a Back-End Developer in sunny Bnaglore. We are looking for a motivated individual with a passion for making API nad handling databases of our system.",
-        "salary": "90K - 95K",
-        "company": {
-          "name": "Veneer Solutions",
-          "description": "Veneer Solutions is a creative agency specializing in digital design and development. Our team is dedicated to pushing the boundaries of creativity and innovation to deliver exceptional results for our clients.",
-          "contactEmail": "contact@loremipsum.com",
-          "contactPhone": "555-555-5555"
-        }
-      },
-      {
-        "id": "3",
-        "title": "AI/ML INTERN",
-        "type": "Full-Time",
-        "location": "Gurgaon,Haryana",
-        "description": "Are you passionate about AI? Join our team in gurgaon , and work on exciting projects that make a difference. We offer competitive compensation and a collaborative work environment where your ideas are valued.",
-        "salary": "70K - 80K",
-        "company": {
-          "name": "Dolor Cloud",
-          "description": "Dolor Cloud is a leading technology company specializing in digital solutions for businesses of all sizes. With a focus on innovation and customer satisfaction, we are committed to delivering cutting-edge products and services.",
-          "contactEmail": "contact@dolorsitamet.com",
-          "contactPhone": "555-555-5555"
-        }
-      },
-      {
-        "id": "4",
-        "title": "Intern Associate",
-        "type": "Full-Time",
-        "description": "Join our team as a Intern Associate in beautiful lucknow, UP. We are looking for a self-motivated individual with a passion for law. This position offers a good stipend",
-        "location": "lucknow,UP",
-        "salary": "60K - 70K",
-        "company": {
-          "name": "Alpha Elite",
-          "description": "Alpha Elite is a dynamic startup law firm with best lawyers in the city and 85 percent cases win-rate.",
-          "contactEmail": "contact@adipisicingelit.com",
-          "contactPhone": "555-555-5555"
-        }
-      },
-      {
-        "id": "5",
-        "title": "Full Stack Developer",
-        "type": "Full-Time",
-        "description": "Exciting opportunity for a Full-Time Developer in bustling Hyderabad. We are seeking a talented individual with a passion for building elegant and scalable web applications. Join our team and make an impact!",
-        "location": "Hyderabad, Telangana",
-        "salary": "120K - 150K",
-        "company": {
-          "name": "Browning Technologies",
-          "description": "Browning Technologies is a rapidly growing technology company specializing in e-commerce solutions. We offer a dynamic and collaborative work environment where employees are encouraged to think creatively and innovate.",
-          "contactEmail": "contact@consecteturadipisicing.com",
-          "contactPhone": "555-555-5555"
-        }
-      },
-      {
-        "id": "6",
-        "title": "Devops Engineer",
-        "type": "Full-Time",
-        "description": "Join our team as a Devops Engineer in Pune. We are looking for a skilled and enthusiastic individual to help us create innovative cloud solutions. Competitive salary and great benefits package available.",
-        "location": "Pune, Maharashtra",
-        "salary": "150K - 175K",
-        "company": {
-          "name": "Port Solutions INC",
-          "description": "Port Solutions is a leading technology company specializing in software development and digital marketing. We are committed to providing our clients with cutting-edge solutions and our employees with a supportive and rewarding work environment.",
-          "contactEmail": "contact@ipsumlorem.com",
-          "contactPhone": "555-555-5555"
-        }
+  "jobs": [
+    {
+      "id": "1",
+      "title": "Senior React Developer",
+      "type": "Full-Time",
+      "description": "We are seeking a talented Front-End Developer to join our team in Noida, UP. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as React or Angular.",
+      "location": "Noida, UP",
+      "salary": "70K - 80K",
+      "company": {
+        "name": "NewTek Solutions",
+        "description": "NewTek Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
+        "contactEmail": "contact@teksolutions.com",
+        "contactPhone": "555-555-5555"
       }
-    ]
-  }
+    },
+    {
+      "id": "2",
+      "title": "Back-End Engineer (Java/Springboot)",
+      "type": "Full-Time",
+      "location": "Bengaluru, Karnataka",
+      "description": "Join our team as a Back-End Developer in sunny Bengaluru. We are looking for a motivated individual with a passion for making APIs and handling databases of our system.",
+      "salary": "90K - 95K",
+      "company": {
+        "name": "Veneer Solutions",
+        "description": "Veneer Solutions is a creative agency specializing in digital design and development. Our team is dedicated to pushing the boundaries of creativity and innovation to deliver exceptional results for our clients.",
+        "contactEmail": "contact@loremipsum.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "3",
+      "title": "AI/ML Intern",
+      "type": "Full-Time",
+      "location": "Gurgaon, Haryana",
+      "description": "Are you passionate about AI? Join our team in Gurgaon and work on exciting projects that make a difference. We offer competitive compensation and a collaborative work environment where your ideas are valued.",
+      "salary": "70K - 80K",
+      "company": {
+        "name": "Dolor Cloud",
+        "description": "Dolor Cloud is a leading technology company specializing in digital solutions for businesses of all sizes. With a focus on innovation and customer satisfaction, we are committed to delivering cutting-edge products and services.",
+        "contactEmail": "contact@dolorsitamet.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "4",
+      "title": "Intern Associate",
+      "type": "Full-Time",
+      "description": "Join our team as an Intern Associate in beautiful Lucknow, UP. We are looking for a self-motivated individual with a passion for law. This position offers a good stipend.",
+      "location": "Lucknow, UP",
+      "salary": "60K - 70K",
+      "company": {
+        "name": "Alpha Elite",
+        "description": "Alpha Elite is a dynamic startup law firm with the best lawyers in the city and an 85 percent case win-rate.",
+        "contactEmail": "contact@adipisicingelit.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "5",
+      "title": "Full Stack Developer",
+      "type": "Full-Time",
+      "description": "Exciting opportunity for a Full-Time Developer in bustling Hyderabad. We are seeking a talented individual with a passion for building elegant and scalable web applications. Join our team and make an impact!",
+      "location": "Hyderabad, Telangana",
+      "salary": "120K - 150K",
+      "company": {
+        "name": "Browning Technologies",
+        "description": "Browning Technologies is a rapidly growing technology company specializing in e-commerce solutions. We offer a dynamic and collaborative work environment where employees are encouraged to think creatively and innovate.",
+        "contactEmail": "contact@consecteturadipisicing.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "6",
+      "title": "DevOps Engineer",
+      "type": "Full-Time",
+      "description": "Join our team as a DevOps Engineer in Pune. We are looking for a skilled and enthusiastic individual to help us create innovative cloud solutions. Competitive salary and great benefits package available.",
+      "location": "Pune, Maharashtra",
+      "salary": "150K - 175K",
+      "company": {
+        "name": "Port Solutions INC",
+        "description": "Port Solutions is a leading technology company specializing in software development and digital marketing. We are committed to providing our clients with cutting-edge solutions and our employees with a supportive and rewarding work environment.",
+        "contactEmail": "contact@ipsumlorem.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "7",
+      "title": "Mobile App Developer (Flutter)",
+      "type": "Full-Time",
+      "description": "We are looking for a talented Mobile App Developer in Chennai, Tamil Nadu. The ideal candidate will have strong expertise in Flutter and Dart, with experience in deploying apps on both iOS and Android platforms.",
+      "location": "Chennai, Tamil Nadu",
+      "salary": "90K - 110K",
+      "company": {
+        "name": "InnovApp Solutions",
+        "description": "InnovApp Solutions is a forward-thinking mobile app development company, crafting intuitive and scalable apps for businesses. We prioritize quality and innovation to deliver exceptional digital experiences.",
+        "contactEmail": "contact@innovappsolutions.com",
+        "contactPhone": "555-555-5556"
+      }
+    },
+    {
+      "id": "8",
+      "title": "Data Scientist",
+      "type": "Full-Time",
+      "description": "Join our data team in Kolkata, West Bengal, as a Data Scientist. We're looking for individuals passionate about analyzing complex datasets, building predictive models, and delivering actionable insights.",
+      "location": "Kolkata, West Bengal",
+      "salary": "140K - 160K",
+      "company": {
+        "name": "DataVault Analytics",
+        "description": "DataVault Analytics specializes in advanced data solutions, empowering organizations with data-driven strategies and tools. We foster an environment of learning and exploration for all our employees.",
+        "contactEmail": "contact@datavault.com",
+        "contactPhone": "555-555-5557"
+      }
+    },
+    {
+      "id": "9",
+      "title": "UI/UX Designer",
+      "type": "Full-Time",
+      "description": "We're seeking a creative UI/UX Designer to join our design team in Jaipur, Rajasthan. The role involves designing intuitive user interfaces and enhancing the overall user experience of our digital products.",
+      "location": "Jaipur, Rajasthan",
+      "salary": "70K - 90K",
+      "company": {
+        "name": "DesignHive Studios",
+        "description": "DesignHive Studios is an innovative design agency focused on creating visually stunning and user-centric digital products. We value creativity and teamwork in everything we do.",
+        "contactEmail": "contact@designhivestudios.com",
+        "contactPhone": "555-555-5558"
+      }
+    },
+    {
+      "id": "10",
+      "title": "Cybersecurity Analyst",
+      "type": "Full-Time",
+      "description": "Exciting opportunity in Mumbai, Maharashtra, for a Cybersecurity Analyst. The ideal candidate will have experience in network security, threat analysis, and implementing security protocols to safeguard systems.",
+      "location": "Mumbai, Maharashtra",
+      "salary": "100K - 120K",
+      "company": {
+        "name": "SecureTech Systems",
+        "description": "SecureTech Systems is a leading provider of cybersecurity solutions, dedicated to protecting businesses from digital threats. We offer a supportive and collaborative work environment.",
+        "contactEmail": "contact@securetechsystems.com",
+        "contactPhone": "555-555-5559"
+      }
+    },
+    {
+      "id": "11",
+      "title": "Cloud Architect",
+      "type": "Full-Time",
+      "description": "Join our Pune-based team as a Cloud Architect. We're seeking an expert in AWS or Azure to design, deploy, and manage scalable cloud infrastructures for enterprise applications.",
+      "location": "Pune, Maharashtra",
+      "salary": "180K - 200K",
+      "company": {
+        "name": "SkyBound Tech",
+        "description": "SkyBound Tech is a technology company specializing in cloud solutions for businesses. Our mission is to enable digital transformation through innovative and scalable cloud technologies.",
+        "contactEmail": "contact@skyboundtech.com",
+        "contactPhone": "555-555-5560"
+      }
+    },
+    {
+      "id": "12",
+      "title": "Blockchain Developer",
+      "type": "Full-Time",
+      "description": "We are seeking a Blockchain Developer in Bengaluru, Karnataka, to develop decentralized applications (DApps) and smart contracts. Knowledge of Ethereum and Solidity is essential.",
+      "location": "Bengaluru, Karnataka",
+      "salary": "150K - 180K",
+      "company": {
+        "name": "BlockCraft Innovations",
+        "description": "BlockCraft Innovations is a pioneer in blockchain technology, providing solutions for businesses across various industries. We thrive on collaboration and innovation to drive digital transformation.",
+        "contactEmail": "contact@blockcraft.com",
+        "contactPhone": "555-555-5561"
+      }
+    }
+  ]
+}
