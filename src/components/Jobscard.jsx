@@ -1,7 +1,7 @@
 import React from 'react';
 import jobsData from '../jobs.json'; 
 function Jobscard() {
-  const jobs = jobsData.jobs; 
+  const jobs = jobsData.jobs.slice(0,3); 
 
   
 
@@ -35,6 +35,9 @@ function Jobscard() {
           ))
         }
       </div>
+      <center>
+      <button className='rounded-sm w-full py-2 px-2 bg-blue-500 text-white font-bold hover:bg-blue-800 hover:text-black'>SHOW ALL JOBS</button>
+      </center>
     </section>
   );
 }
