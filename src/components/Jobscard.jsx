@@ -54,8 +54,8 @@ function Jobscard() {
       </center>
 
       {selectedJob && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 z-40">
-          <div className='fixed inset-0 flex justify-center items-center z-50'>
+        <div className="fixed inset-10 bg-black bg-opacity-0 z-40">
+          <div className='fixed inset-10 flex justify-center items-center z-50'>
           <div
             key={selectedJob.id}
             className="bg-white rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 p-4"
