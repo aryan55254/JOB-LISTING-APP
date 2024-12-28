@@ -54,7 +54,8 @@ function Jobscard() {
       </center>
 
       {selectedJob && (
-        <div className="m-4 grid grid-cols-1">
+        <div className="fixed inset-0 bg-black bg-opacity-50 z-40">
+          <div className='fixed inset-0 flex justify-center items-center z-50'>
           <div
             key={selectedJob.id}
             className="bg-white rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 p-4"
@@ -79,6 +80,7 @@ function Jobscard() {
               CLOSE THIS
             </button>
           </div>
+        </div>
         </div>
       )}
     </section>
