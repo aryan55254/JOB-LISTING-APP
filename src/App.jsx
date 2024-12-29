@@ -4,6 +4,7 @@ import Hero from './components/Hero.jsx';
 import Card1 from './components/Card1.jsx';
 import Jobscard from './components/Jobscard.jsx';
 import Footer from './components/Footer.jsx';
+import Form from './components/Form.jsx';
 const App = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const App = () => {
     <Card1 />
     <Jobscard />
     <Footer />
+    <Form />
     </>
   )
 }
