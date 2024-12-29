@@ -10,7 +10,7 @@ const Card = () => {
           <p className="text-gray-600 mt-2">
             BROWSE THE JOBS AVAILABLE AND START YOUR CAREER
           </p>
-          <a><button className="mt-4 px-4 py-2 bg-white text-gray-800 font-bold rounded hover:bg-blue-500">
+          <a><button className="mt-4 px-4 py-2 w-full bg-white text-gray-800 font-bold rounded hover:bg-blue-500">
             FIND JOBS
           </button></a>
         </div>
@@ -21,9 +21,9 @@ const Card = () => {
           <p className="text-gray-600 mt-2">
             LIST YOUR JOBS AVAILABLE AND FIND THE BEST CANDIDATE
           </p>
-          <a><button className="mt-4 px-4 py-2 bg-white text-gray-800 font-bold rounded hover:bg-blue-500">
+          <button className="mt-4 px-4 py-2 w-auto bg-white text-gray-800 font-bold rounded hover:bg-blue-500">
             ADD JOBS
-          </button></a>
+          </button>
         </div>
       </div>
     </div>
