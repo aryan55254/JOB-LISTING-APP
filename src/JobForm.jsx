@@ -45,6 +45,11 @@ function JobForm() {
             Submit
         </button>
         </center>
+        <center>
+        <button className='bg-red-600 text-white p-2 w-full  h-auto mt-4 rounded-md text-3xl border border-slate-600'>
+            CLOSE
+        </button>
+        </center>
         
     </form>
     <Footer />
