@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 {/*htmlfor is used to link label with its id in input and name is used for storing data with keys*/}
 function JobForm() {
   return (
     <>
+    <Navbar />
     <form className='w-full max-w-lg mx-auto bg-white p-6 shadow-lg rounded-sm'>
         <h2 className='font-bold text-3xl text-blue-600 mb-4'>Job Details</h2>
       <div className='space-y-4'>
@@ -44,6 +47,7 @@ function JobForm() {
         </center>
         
     </form>
+    <Footer />
     </>
   )
 }
