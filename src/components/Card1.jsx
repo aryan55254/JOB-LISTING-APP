@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Card = () => {
   return (
@@ -10,9 +11,9 @@ const Card = () => {
           <p className="text-gray-600 mt-2">
             BROWSE THE JOBS AVAILABLE AND START YOUR CAREER
           </p>
-          <a><button className="mt-4 px-4 py-2 w-full bg-white text-gray-800 font-bold rounded hover:bg-blue-500">
+          <NavLink to='/alljobs'><button className="mt-4 px-4 py-2 w-full bg-white text-gray-800 font-bold rounded hover:bg-blue-500">
             FIND JOBS
-          </button></a>
+          </button></NavLink>
         </div>
       </div>
       <div className="w-full md:w-1/2 bg-gradient-to-r from-white to to-blue-500 rounded-lg shadow-md overflow-hidden transition-transform duration-200 hover:scale-105 h-auto m-2">
@@ -21,9 +22,9 @@ const Card = () => {
           <p className="text-gray-600 mt-2">
             LIST YOUR JOBS AVAILABLE AND FIND THE BEST CANDIDATE
           </p>
-          <button className="mt-4 px-4 py-2 w-auto bg-white text-gray-800 font-bold rounded hover:bg-blue-500">
+         <NavLink to='/addjobs'><button className="mt-4 px-4 py-2 w-auto bg-white text-gray-800 font-bold rounded hover:bg-blue-500">
             ADD JOBS
-          </button>
+          </button></NavLink> 
         </div>
       </div>
     </div>
