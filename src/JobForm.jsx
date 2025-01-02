@@ -1,13 +1,26 @@
 import React from 'react'
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import {  NavLink } from 'react-router-dom';
+import {  NavLink , useNavigate} from 'react-router-dom';
 {/*htmlfor is used to link label with its id in input and name is used for storing data with keys*/}
 function JobForm() {
+  const navigate = useNavigate(); 
+  const handleSubmit = (e) => {
+    e.preventDefault(); 
+
+    const form = e.target;
+    if (form.checkValidity()) {
+      
+      alert('Job Will Be Added To Our Database');
+      navigate('/');
+    } else {
+      form.reportValidity();
+    }
+  };
   return (
     <>
     <Navbar />
-    <form className='w-full max-w-lg mx-auto bg-white p-6 shadow-lg rounded-sm'>
+    <form onSubmit={handleSubmit} className='w-full max-w-lg mx-auto bg-white p-6 shadow-lg rounded-sm'>
         <h2 className='font-bold text-3xl text-blue-600 mb-4'>Job Details</h2>
       <div className='space-y-4'>
       <div>
@@ -43,11 +56,11 @@ function JobForm() {
         <input required className='rounded-md  border p-2 border-gray-400 w-full font-medium'  id = "email" name = 'email' type='text' placeholder='Email of the company'></input>
         <center>
       
-      <NavLink to='/'>
-       <button onSubmit={alert('Job Will Be Added To Our Database')} className='bg-blue-600 text-white p-2 w-full hover:bg-white hover:text-blue-600 h-auto mt-4 rounded-md text-3xl border border-slate-600'>
+    
+       <button type="submit" onSubmit={handleSubmit}className='bg-blue-600 text-white p-2 w-full hover:bg-white hover:text-blue-600 h-auto mt-4 rounded-md text-3xl border border-slate-600'>
             Submit
         </button>
-       </NavLink>
+       
       
         </center>
         <center>
@@ -60,9 +73,8 @@ function JobForm() {
             
         </center>
         
-    </form>
+    </form  >
     </>
-  )
-}
-
-export default JobForm
+  );
+};
+export default JobForm;

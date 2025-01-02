@@ -61,7 +61,7 @@ function Alljobs() {
              <div><input required id='resume' name='resume' placeholder='upload your resume' type='file' className='rounded-md border p-2 border-blue-600'  ></input> </div> 
             </div>
             <button onClick={justclose} className='bg-red-600 text-white rounded-md text-xl font-bold w-full p-2 m-2 '>CLOSE</button>
-            <button onSubmit={()=>closejobstate()} className='rounded-md w-full bg-blue-600 text-white text-xl p-2 m-2'>Submit</button>
+            <button type="submit" onSubmit={()=>closejobstate()} className='rounded-md w-full bg-blue-600 text-white text-xl p-2 m-2'>Submit</button>
           </form>
           </div>
           </div>

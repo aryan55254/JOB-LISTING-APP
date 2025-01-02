@@ -25,7 +25,7 @@ const Card = () => {
             LIST YOUR JOBS AVAILABLE AND FIND THE BEST CANDIDATE
           </p>
        
-        <NavLink to='/addjobs'><button className="mt-4 px-4 py-2 w-auto bg-white text-gray-800 font-bold rounded hover:bg-blue-500">
+        <NavLink to='/addjobs'><button className="mt-4 px-4 py-2 w-full bg-white text-gray-800 font-bold rounded hover:bg-blue-500">
             ADD JOBS
           </button></NavLink> 
        
