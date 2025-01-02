@@ -1,5 +1,9 @@
 import React from 'react'
-
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Card1 from './components/Card1';
+import Jobscard from './components/Jobscard';
+import Footer from './components/Footer';
 function Start() {
   return (
     <>

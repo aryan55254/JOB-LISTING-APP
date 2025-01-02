@@ -8,11 +8,13 @@ import Footer from './components/Footer.jsx';
 import Alljobs from './Alljobs.jsx';
 import JobForm from './JobForm.jsx';
 import Start from './Start.jsx';
+import ErrorBoundary from './components/ErrorBoundary.jsx';
 const router = createBrowserRouter(
   [
     {
       path: '/',
       element: <App />,
+      errorElement: <ErrorBoundary />,
       children: [
         {
           path: '/',
@@ -26,7 +28,8 @@ const router = createBrowserRouter(
           path: '/addjobs',
           element: <JobForm />
         }
-      ]
+      ],
+    
     }
   ]
 );

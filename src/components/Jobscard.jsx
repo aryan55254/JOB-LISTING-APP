@@ -1,7 +1,7 @@
 import React from 'react';
 import jobsData from '../jobs.json';
 import { useState } from 'react';
-import { BrowserRouter, NavLink } from 'react-router-dom';
+import {  NavLink } from 'react-router-dom';
 
 function Jobscard() {
   const jobs = jobsData.jobs.slice(0, 6);
@@ -49,13 +49,13 @@ function Jobscard() {
       </div>
 
       <center>
-       <BrowserRouter>
+       
        <NavLink to='/alljobs'>
        <button className="rounded-sm w-full py-2 px-2 bg-blue-500 text-white font-bold hover:bg-blue-800 hover:text-black">
           SHOW ALL JOBS
         </button>
         </NavLink>
-        </BrowserRouter> 
+       
       </center>
 
       {selectedJob && (
