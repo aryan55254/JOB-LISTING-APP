@@ -42,7 +42,7 @@ function Alljobs() {
       </div>
    
      </section>
-     <div className='bg-blue-100 flex justify-center items-center'>
+     <div className='bg-blue-100 '>
    
      <NavLink to='/alljobs'>
       <button className='bg-blue-500 w-full h-auto rounded-sm px-2 py-2 font-bold text-white hover:bg-blue-700 hover:text-black' >BACK TO TOP</button>
@@ -54,14 +54,14 @@ function Alljobs() {
         jobstate && (
           <div className='z-40 bg-black  opacity-100 fixed'>
           <div className='z-50 fixed inset-0 flex justify-center items-center w-auto h-auto'>
-          <form className='w-full max-w-lg bg-indigo-200 p-6 shadow-lg rounded-md border border-gray-200 m-4 '>
+          <form  onSubmit={()=>closejobstate()} className='w-full max-w-lg bg-indigo-200 p-6 shadow-lg rounded-md border border-gray-200 m-4 '>
             <center><h1 className='text-3xl m-2 font-bold text-blue-600'>Apply For This Position</h1></center>
             <div className='flex justify-between'>
               <div><label htmlFor ='resume' className='text-2xl m-2 font-bold block'  >RESUME:</label></div>
              <div><input required id='resume' name='resume' placeholder='upload your resume' type='file' className='rounded-md border p-2 border-blue-600'  ></input> </div> 
             </div>
             <button onClick={justclose} className='bg-red-600 text-white rounded-md text-xl font-bold w-full p-2 m-2 '>CLOSE</button>
-            <button type="submit" onSubmit={()=>closejobstate()} className='rounded-md w-full bg-blue-600 text-white text-xl p-2 m-2'>Submit</button>
+            <button type="submit" className='rounded-md w-full bg-blue-600 text-white text-xl p-2 m-2'>Submit</button>
           </form>
           </div>
           </div>
