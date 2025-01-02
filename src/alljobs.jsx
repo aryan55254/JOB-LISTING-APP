@@ -4,6 +4,9 @@ import Footer from './components/Footer';
 import JobsData from './jobs.json';
 import {  NavLink } from 'react-router-dom';
 function Alljobs() {
+  const backtotop = ()=> {
+window.scrollTo({top:0,behavior:"smooth"});
+  };
     const jobs = JobsData.jobs;
     const [jobstate , setjobstate] = useState(null)
     const changejobstate = (job) => {setjobstate(job)}
@@ -44,9 +47,8 @@ function Alljobs() {
      </section>
      <div className='bg-blue-100 '>
    
-     <NavLink to='/alljobs'>
-      <button className='bg-blue-500 w-full h-auto rounded-sm px-2 py-2 font-bold text-white hover:bg-blue-700 hover:text-black' >BACK TO TOP</button>
-        </NavLink> 
+      <button onClick={backtotop} className='bg-blue-500 w-full h-auto rounded-sm px-2 py-2 font-bold text-white hover:bg-blue-700 hover:text-black' >BACK TO TOP</button>
+        
      
      
     </div>
