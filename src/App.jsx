@@ -4,9 +4,14 @@ import Hero from './components/Hero.jsx';
 import Card1 from './components/Card1.jsx';
 import Jobscard from './components/Jobscard.jsx';
 import Footer from './components/Footer.jsx';
-import { Route,Routes} from 'react-router-dom';
-import Alljobs from './Alljobs.jsx';
-import Jobform from './JobForm.jsx';
+import { createBrowserRouter,RouterProvider } from 'react-router-dom';
+const router = createBrowserRouter(
+  [
+    {path:'/', element:'<App />'},
+    {path:'/alljobs',element:'<Alljobs />'},
+    {path:'/addjobs',element:'<JobForm />'}
+  ]
+);
 const App = () => {
   return (
     <>
@@ -15,13 +20,9 @@ const App = () => {
     <Card1 />
     <Jobscard />
     <Footer />
-    <Routes>
-      <Route path='/' element={<App />} />
-      <Route path='/alljobs' element={<Alljobs />}/>
-      <Route path='/addjobs' element={<Jobform />} />
-    </Routes>
+    <RouterProvider router = {router}/>
     </>
   )
-}
+};
 
 export default App
