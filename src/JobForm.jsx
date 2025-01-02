@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import { NavLink } from 'react-router-dom';
 {/*htmlfor is used to link label with its id in input and name is used for storing data with keys*/}
 function JobForm() {
   return (
@@ -41,9 +42,11 @@ function JobForm() {
         <label className='text-xl mb-1 block font-medium' htmlFor="email">Company Email:</label>
         <input  className='rounded-md  border p-2 border-gray-400 w-full font-medium'  id = "email" name = 'email' type='text' placeholder='Email of the company'></input>
         <center>
-        <button  className='bg-blue-600 text-white p-2 w-full hover:bg-white hover:text-blue-600 h-auto mt-4 rounded-md text-3xl border border-slate-600'>
+       <NavLink to='/'>
+       <button onSubmit={alert('Job Will Be Added To Our Database')} className='bg-blue-600 text-white p-2 w-full hover:bg-white hover:text-blue-600 h-auto mt-4 rounded-md text-3xl border border-slate-600'>
             Submit
         </button>
+       </NavLink>
         </center>
         <center>
         <button className='bg-red-600 text-white p-2 w-full  h-auto mt-4 rounded-md text-3xl border border-slate-600'>
@@ -52,9 +55,6 @@ function JobForm() {
         </center>
         
     </form>
-    <div className='bg-blue-100 flex justify-center items-center'>
-       <button className='bg-blue-500 w-full h-auto rounded-sm px-2 py-2 font-bold text-white hover:bg-blue-700 hover:text-black' >BACK TO TOP</button>
-    </div>
     </>
   )
 }
