@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../assets/images/jplogo.jpg';
-import { NavLink } from 'react-router-dom';
+import { BrowserRouter, NavLink } from 'react-router-dom';
 const Navbar = () => {
   return (
     <nav className="bg-blue-500 text-white px-4 py-2 shadow-md ">
@@ -17,21 +17,28 @@ const Navbar = () => {
 
         {/* Right Side: Navigation Links */}
         <div className="space-x-6">
-          <NavLink to='/'
+        <BrowserRouter>
+        <NavLink to='/'
             className="hover:text-gray-500 transition-colors"
           >
             HOME
           </NavLink>
-          <NavLink to = '/alljobs'
+        </BrowserRouter>  
+        <BrowserRouter>
+        <NavLink to = '/alljobs'
             className="hover:text-gray-500 transition-colors"
           >
             JOBS
           </NavLink>
+        </BrowserRouter>
+          <BrowserRouter>
           <NavLink to='/addjobs'
             className="hover:text-gray-500 transition-colors"
           >
             ADD JOBS
           </NavLink>
+          </BrowserRouter>
+         
         </div>
       </div>
     </nav>

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import JobsData from './jobs.json';
-import { NavLink } from 'react-router-dom';
+import { BrowserRouter, NavLink } from 'react-router-dom';
 function Alljobs() {
     const jobs = JobsData.jobs;
     const [jobstate , setjobstate] = useState(null)
@@ -43,9 +43,12 @@ function Alljobs() {
    
      </section>
      <div className='bg-blue-100 flex justify-center items-center'>
-      <NavLink to='/alljobs'>
+     <BrowserRouter>
+     <NavLink to='/alljobs'>
       <button className='bg-blue-500 w-full h-auto rounded-sm px-2 py-2 font-bold text-white hover:bg-blue-700 hover:text-black' >BACK TO TOP</button>
         </NavLink> 
+     </BrowserRouter>
+     
     </div>
       {
         jobstate && (
