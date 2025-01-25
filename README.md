@@ -1,8 +1,25 @@
-# React + Vite
+# Job Listing App
+Frontend Only Project 
+A modern job listing application built to help users browse job postings efficiently and allow employers to post jobs. The app is hosted on Vercel and provides a seamless user experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live Demo
 
-Currently, two official plugins are available:
+Check out the live demo of the project: [Job Listing App](https://job-listing-app-pied.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **Job Listings**: Browse through a list of available job postings.
+-**Job-Possting**: Post Jobs to fulfill need of your workplace.
+
+## Technologies Used
+
+- **Frontend**: React.js, Tailwind CSS
+- **Deployment**: Vercel
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/job-listing-app.git
