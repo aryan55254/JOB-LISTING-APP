@@ -23,3 +23,5 @@ To run this project locally, follow these steps:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/job-listing-app.git
+2. Install tailwind locally if u need to do some ui changes
+3. 
